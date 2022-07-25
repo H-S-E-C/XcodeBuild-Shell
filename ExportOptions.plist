@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>compileBitcode</key>
+	<false/>
+	<key>destination</key>
+	<string>export</string>
+	<key>manifest</key>
+	<dict>
+		<key>appURL</key>
+		<string>https://download.apptest.hsec.one</string>
+		<key>displayImageURL</key>
+		<string>https://img.apptest.hsec.one</string>
+		<key>fullSizeImageURL</key>
+		<string>https://fullimg.apptest.hsec.one</string>
+	</dict>
+	<key>method</key>
+	<string>development</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>com.xxx.xxx</key>
+		<string>xxx_dev</string>
+	</dict>
+	<key>signingCertificate</key>
+	<string>Apple Development</string>
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>teamID</key>
+	<string>B4ZWA32WTM</string>
+	<key>thinning</key>
+	<string>&lt;none&gt;</string>
+</dict>
+</plist>
